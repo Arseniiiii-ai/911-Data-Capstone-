@@ -29,25 +29,25 @@ In this capstone project, the data is explored and visualized to answer key ques
 
 Each notebook in the `Src/` folder focuses on a specific stage of the analysis.
 
-### 1️⃣ Data Cleaning & Preparation
+### 1️ Data Cleaning & Preparation
 - Loads raw 911 call data from the `Data/` folder
 - Handles missing values
 - Converts timestamps to datetime format
 - Creates new time-based features (hour, day, month)
 
-### 2️⃣ Exploratory Data Analysis (EDA)
+### 2️ Exploratory Data Analysis (EDA)
 - Analyzes call volume by hour, day, and month
 - Examines the distribution of emergency call reasons
 - Identifies trends and seasonal patterns
 - Compares different emergency categories
 
-### 3️⃣ Data Visualization
+### 3️ Data Visualization
 - Line plots showing call trends over time
 - Count plots for emergency types
 - Heatmaps for call frequency by day and hour
 - All plots are saved into the `Visuals/` folder
 
-### 4️⃣ (Optional) Modeling / Forecasting
+### 4️ (Optional) Modeling / Forecasting
 - Prepares data for basic predictive analysis
 - Demonstrates how modeling can be applied to time-based call data
 - Focuses on concept demonstration rather than production accuracy
@@ -58,10 +58,10 @@ Each notebook in the `Src/` folder focuses on a specific stage of the analysis.
 
 The `Visuals/` folder contains example outputs such as:
 
-- 📈 **Time-series plots** of total 911 calls over time  
-- 🕒 **Heatmaps** showing peak call hours and days  
-- 📊 **Bar charts** comparing EMS, Fire, and Traffic calls  
-- 📉 **Trend visualizations** highlighting seasonal effects  
+-  **Time-series plots** of total 911 calls over time  
+-  **Heatmaps** showing peak call hours and days  
+-  **Bar charts** comparing EMS, Fire, and Traffic calls  
+-  **Trend visualizations** highlighting seasonal effects  
 
 These visualizations help quickly understand emergency call behavior.
 
